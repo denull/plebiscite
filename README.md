@@ -8,7 +8,7 @@
 npm install
 ```
 
-После этого зайдите на страницу [ЦИКа|http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&root=1&tvd=100100163596969&vrn=100100163596966&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100163596969&type=465] в браузере и введите капчу. Откройте консоль разработчика и скопируйте значение куки `izbirkomSession`. Вставьте его в 23 строку скрипта вместо `PASTE_YOUR_SESSIONID_HERE`:
+После этого зайдите на [страницу результатов ЦИКа](http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&root=1&tvd=100100163596969&vrn=100100163596966&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100163596969&type=465) в браузере и введите капчу. Откройте консоль разработчика и скопируйте значение куки `izbirkomSession`. Вставьте его в 23 строку скрипта вместо `PASTE_YOUR_SESSIONID_HERE`:
 
 ```javascript
 ...
