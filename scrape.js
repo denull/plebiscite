@@ -50,7 +50,7 @@ const processLevel = async (vibid, level, status = '') => {
 
   const html = await getPage(vibid);
   const $ = cheerio.load(html);
-  const rows = $('tr tr tr'); // При существование CSS-классов ЦИК тоже не в курсе. Поэтому тр-тр-тр.
+  const rows = $('tr tr tr'); // Про существование CSS-классов ЦИК тоже не в курсе. Поэтому тр-тр-тр.
   const header = rows.eq(8).find('a').get();
   const voters = rows.eq(9).find('b').get();
   const totals = rows.eq(10).find('b').get();
